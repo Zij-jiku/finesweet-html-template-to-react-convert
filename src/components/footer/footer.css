@@ -1,0 +1,125 @@
+.footer_main {
+    background: #1C1E53;
+    padding-top: 100px;
+}
+
+.footer_flex {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 140px;
+}
+
+.footer_left {
+    width: 50%;
+}
+
+.footer_left p {
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.contact_via {
+    display: flex;
+    justify-content: space-between;
+    background: #FCD980;
+    padding: 20px 30px;
+}
+
+.via_email {
+    width: 50%;
+}
+
+.via_email h6 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #282938;
+}
+
+.via_email p {
+    color: rgb(40, 41, 56, .8);
+    margin: 0;
+}
+
+.via_call {
+    width: 50%;
+}
+
+.via_call h6 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #282938;
+}
+
+.via_call p {
+    color: rgb(40, 41, 56, .8);
+    margin: 0;
+}
+
+.footer_right {
+    width: 50%;
+}
+
+.footer_right h2 {
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.footer_right p {
+    color: rgb(244, 246, 252, .8);
+}
+
+.social {
+    margin-top: 30px;
+}
+
+.social ul {
+    display: flex;
+    column-gap: 26px;
+}
+
+.social ul li router-link {
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.social ul li router-link:hover {
+    color: #FCD980;
+}
+
+.copyright {
+    height: 100px;
+}
+
+.copyright_flex {
+    display: flex;
+}
+
+.copyright_text {
+    width: 30%;
+}
+
+.copyright_text p {
+    line-height: 100px;
+}
+
+.footer_menu {
+    width: 70%;
+}
+
+.footer_menu ul {
+    display: flex;
+    justify-content: end;
+    column-gap: 30px;
+}
+
+.footer_menu ul li a {
+    line-height: 100px;
+}
+
+.footer_menu ul li a:hover {
+    color: #FCD980;
+}

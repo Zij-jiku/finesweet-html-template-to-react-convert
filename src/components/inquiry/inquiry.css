@@ -1,0 +1,125 @@
+.inquiry {
+    padding: 0;
+}
+
+.inquiry_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inquiry_text {
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 80px;
+}
+
+.inquiry_text h2 {
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.inquiry_text p {
+    color: #FFFFFF;
+}
+
+.inquiry_contain {
+    width: 50%;
+    background: #1C1E53;
+    padding: 80px;
+}
+
+.inquiry_form_title {
+    margin-bottom: 40px;
+}
+
+.inquiry_form_title h4 {
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.inquiry_form_title p {
+    color: #FFFFFF;
+}
+
+.inquiry_form .name {
+    padding: 18px;
+    background: transparent;
+    color: #F4F6FC;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.inquiry_form .email {
+    padding: 18px;
+    background: transparent;
+    color: #F4F6FC;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.inquiry_form .figma_url {
+    padding: 18px;
+    background: transparent;
+    color: #F4F6FC;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.inquiry_form .submit {
+    padding: 18px;
+    background: #FCD980;
+    color: #1B1C2B;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    cursor: pointer;
+}
+
+.inquiry_form .submit:hover {
+    background: transparent;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+.inquiry_form_btn {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.inquiry_form_btn a {
+    color: #FFFFFF;
+}
